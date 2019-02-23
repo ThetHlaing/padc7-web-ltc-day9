@@ -1,0 +1,13 @@
+@import 'partial/variables';
+@import 'partial/partial';
+
+
+  div{
+    background: $main-bg-color;
+    ul{
+      @include rounded-border(10);
+      color:$main-color;
+      display: inline;
+      @extend %extending-property;
+    }
+  }

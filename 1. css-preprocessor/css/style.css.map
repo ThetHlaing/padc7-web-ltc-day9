@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAIE,AEEF,GFFK,CAED,EAAE,CEAa;EACf,gBAAgB,EDNH,IAAI;CCOpB;;AFJC,AAAA,GAAG,CAAA;EACD,UAAU,ECJG,IAAI;CDWlB;;AARD,AAEE,GAFC,CAED,EAAE,CAAA;EELF,aAAa,EFMa,EAAE;EEL5B,OAAO,EAAC,IAAI;EFMV,KAAK,ECRG,IAAI;EDSZ,OAAO,EAAE,MAAM;CAEhB",
+    "sources": [
+        "style.scss",
+        "partial/_variables.scss",
+        "partial/_partial.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

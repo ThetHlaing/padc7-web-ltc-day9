@@ -1,0 +1,15 @@
+div ul {
+  background-color: #000;
+}
+
+div {
+  background: #000;
+}
+
+div ul {
+  border-radius: 10;
+  padding: 10px;
+  color: #fff;
+  display: inline;
+}
+/*# sourceMappingURL=style.css.map */
