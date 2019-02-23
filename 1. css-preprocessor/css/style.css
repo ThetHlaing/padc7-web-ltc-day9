@@ -1,15 +1,18 @@
-div ul {
+body > section {
+  width: 100vw;
+  height: 100vh;
+}
+
+body > section {
   background-color: #000;
+  color: #a1a1a1;
 }
 
-div {
-  background: #000;
+#first-page h1 {
+  font-size: 36px;
 }
 
-div ul {
-  border-radius: 10;
-  padding: 10px;
-  color: #fff;
-  display: inline;
+#first-page h2 {
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */

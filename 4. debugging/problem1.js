@@ -10,7 +10,8 @@ function average(nums) {
     let median;
     const length = nums.length;
   
-    nums.sort();
+    nums.sort((x,y)=>x>y);
+    console.log(nums);
     if (length % 2 === 0) {
       median = average([nums[(length / 2) - 1], nums[length / 2]]);
     } else {
@@ -28,10 +29,10 @@ function average(nums) {
   const quarter4ExamScores = [100, 94, 73, 88, 82, 91, 97, 99, 80, 84];
   
   // should all log 'true':
-  console.log(average(quarter1ExamScores) === 86.8);
-  console.log(average(quarter2ExamScores) === 86.3);
-  console.log(average(quarter3ExamScores) === 83.7);
-  console.log(average(quarter4ExamScores) === 88.8);
+  // console.log(average(quarter1ExamScores) === 86.8);
+  // console.log(average(quarter2ExamScores) === 86.3);
+  // console.log(average(quarter3ExamScores) === 83.7);
+  // console.log(average(quarter4ExamScores) === 88.8);
   
   console.log(median(quarter1ExamScores) === 89.5);
   console.log(median(quarter2ExamScores) === 89.5);

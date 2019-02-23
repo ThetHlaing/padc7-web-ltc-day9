@@ -1,13 +1,14 @@
 @import 'partial/variables';
 @import 'partial/partial';
+@import 'partial/mainlayout';
 
 
-  div{
-    background: $main-bg-color;
-    ul{
-      @include rounded-border(10);
-      color:$main-color;
-      display: inline;
-      @extend %extending-property;
-    }
+
+#first-page{
+  h1{
+    font-size:$main-header-font-size;
   }
+  h2{
+    font-size:$sub-header-font-size
+  }
+}

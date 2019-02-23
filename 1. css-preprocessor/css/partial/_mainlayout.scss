@@ -1,0 +1,7 @@
+body{
+    > section{
+     @extend %full-screen;
+     background-color:$main-bg-color;
+     color:$main-color;    
+   }
+ }

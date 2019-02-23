@@ -1,9 +1,4 @@
-@mixin rounded-border($radius) {
-    border-radius:$radius;
-    padding:10px;
-}
-
-
-%extending-property{
-    background-color:$main-bg-color;
+%full-screen{
+    width:100vw;
+    height:100vh;
 }
